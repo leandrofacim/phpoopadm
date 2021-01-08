@@ -1,0 +1,19 @@
+{
+    "name": "projeto/lsdev",
+    "description": "Projeto PHP OO",
+    "authors": [
+        {
+            "name": "Leandro Facim"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Core\\": "core",
+            "Sts\\": "app/sts",
+            "App\\": "app"
+        }
+    },
+    "require": {
+        "phpmailer/phpmailer": "^6.2"
+    }
+}
